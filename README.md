@@ -34,6 +34,7 @@
 - **描画**：ENDLESS WALK・FLIGHT と同じ WebGL2 の仕組み（重心座標で辺を線にする・線画は面を黒く塗って隠れ線処理）。
 - **書き出し・音・歌詞**：ENDLESS DUNGEON / FLIGHT / WALK と同じ。
 - ローカル確認：`python3 -m http.server 8802`
+- 時刻のひとことの試験：`node test/msgs.mjs`（0 秒のコマでまとめて出ないこと・一日で順に一度ずつ出ること）
 - 絵の確認：サーバーを立てて `node test/shots.mjs 出力.png`（道ごとに運転席の昼と後ろからの夜を並べる）。BAD END を見るときは `TIMES=14,16.3,17.2,17.55,18,18.8,19.6 ROWS='[["highway","driver","solid",false,"evening",true]]'` のように時刻と［道・視点・描き方・飾り・走り始め・BAD END］を渡す
 
 ## 更新履歴（Changelog）
